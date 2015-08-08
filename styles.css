@@ -1,0 +1,52 @@
+body {
+	background-color: blue;
+}
+
+p {
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: black;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Arial, serif;
+	color: orange;
+	font-weight: lighter;
+}
+
+.red-background {
+	background-color: red;
+}
+.green-background {
+	background-color: green;
+}
+
+.dragons {
+	background-color: purple;
+}
+
+#main-content {
+	padding: 30px 50px 60px 100px;
+	margin: 30px 50px 60px 100px
+	border: 1px solid black;
+}
+
+div:hover {
+	background-color: yellow;
+}
+
+::selection {
+	background-color: pink;
+}
+
+.image {
+	max-height:50%; 
+	max-width:50%;
+	float: right;
+}
+
+.image-container {
+	display: block;	
+	background-color: white;
+}
